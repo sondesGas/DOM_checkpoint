@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <title>Sopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="title">
+    <ul class="animation" title="click me and enjoy">
+      <li>
+        <input type="checkbox" />
+        <div>C</div>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <div>H</div>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <div>O</div>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <div>P</div>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <div>P</div>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <div>I</div>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <div>N</div>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <div>G</div>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <div>C</div>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <div>A</div>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <div>R</div>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <div>T</div>
+      </li>
+
+    </ul>
+
+  </div>
+    <div class="shopping-cart">
+        
+        <!-- Product #1 -->
+        <div class="itemsList">
+        <div class="item">
+          <div class="buttons">
+            <i class="fas fa-trash" id="delate" title="Delate"></i>
+            <i class="fas fa-heart" id="like" title="Like"></i>
+          </div>
+       
+          <div class="image">
+            <img src="./img/1.PNG" alt="PC" />
+          </div>
+          <div class="description">
+            <span>Pc portable HP</span>
+            <span>15-da0011nk/i3 7ème Gén/16 Go+SIM Orange Offerte 30 Go</span>
+            <span>Blanc</span>
+          </div>
+       
+          <div class="quantity">
+              <i class="fas fa-plus-square fa-lg" id="plus" style="color:rgb(231, 10, 121)" title="Add"  ></i>
+            <!--onclick="increment()"-->
+              <input class="inputItems" type="number" name="name" value="1" >
+              <i class="fas fa-minus-square fa-lg " id="minus" style="color:rgb(10, 198, 231)" title="Sabtruct" ></i>
+              <!--onclick="decrement()"-->
+        </div>
+ 
+        <div class="item-price">
+           <span>1500</span>dt
+
+        </div>
+      </div>
+     
+      <!-- Product #2 -->
+      <div class="item">
+        <div class="buttons">
+          <i class="fas fa-trash" id="delate" title="Delate"></i>
+          <i class="fas fa-heart" id="like" title="Like"></i>
+        </div>
+        <div class="image">
+            <img src="./img/2.PNG" alt="imprimente"/>
+          </div>
+       
+          <div class="description">
+            <span>Imprimente</span>
+            <span>Multifonction Jet D'encre Couleur 3en1 Canon PIXMA TS3140/Wifi</span>
+            <span>Noir</span>
+          </div>
+          <div class="quantity">
+              <i class="fas fa-plus-square fa-lg" id="plus" style="color:#e70a79" title="Add"  ></i>
+            <input class="inputItems" type="number" name="name" value="1">
+            <i class="fas fa-minus-square fa-lg" id="minus" style="color:rgb(10, 198, 231)" title="Sabtruct"></i>
+          </div>
+       
+          <div class="item-price">
+            <span>500</span>dt
+          </div>
+        </div>
+         <!-- Product #3 -->
+  <div class="item">
+    <div class="buttons">
+        <i class="fas fa-trash" id="delate" title="Delate"></i>
+        <i class="fas fa-heart" id="like" title="Like"></i>
+    </div>
+ 
+    <div class="image">
+      <img src="./img/3.png" alt="projecteur" />
+    </div>
+    <div class="description">
+      <span>EPSON Projecteur</span>
+      <span>Epson Projecteur EB-X12</span>
+      <span>Blanc</span>
+    </div>
+    <div class="quantity">
+        <i class="fas fa-plus-square fa-lg" id="plus" style="color:rgb(231, 10, 121)" title="Add" ></i>
+        <input  class="inputItems" type="number" name="name" value="1" >
+        <i class="fas fa-minus-square fa-lg" id="minus" style="color:rgb(10, 198, 231)" title="Sabtruct" ></i>
+      </div>
+   
+      <div class="item-price" >
+        <span>1200</span>dt
+      </div>
+    </div>
+  </div>
+    <!-- Total price -->
+    <div class="totprice">
+      Total Price:
+      <span>0000</span>dt
+    </div>
+  </div>
+
+<script src="./js/script.js"></script>
+
+    
+</body>
+</html>
